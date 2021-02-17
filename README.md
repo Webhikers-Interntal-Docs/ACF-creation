@@ -74,9 +74,9 @@ Here we need the following fields:
 1. `title`
 2. `subtitle`
 3. `benefits` (must be a repeater)
-  - `icon`
-  - `title`
-  - `description`
+    - `icon`
+    - `title`
+    - `description`
 
 We do not want the user to enter 1, 2, 3, 4 for each benefit, since this can be done programmatically.
 
@@ -90,9 +90,9 @@ Here we need the following fields:
 2. `subtitle`
 3. `description`
 4. `services` (must be a repeater)
-  - `title`
-  - `subtitle`
-  - `description`
+    - `title`
+    - `subtitle`
+    - `description`
 
 We do not want the user to enter an image for the red label for each service item, since this can be done programmatically.
 
@@ -106,6 +106,6 @@ Here we need the following fields:
 1. `title`
 2. `subtitle`
 3. `services` (must be a repeater)
-  - `title`
+    - `title`
 
 We do not want the user to enter an image for the red icon for each item, since this can be done programmatically.
