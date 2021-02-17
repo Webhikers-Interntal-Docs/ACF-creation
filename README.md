@@ -4,15 +4,15 @@
 
 2. All fields on a page must be grouped into sections. A section is defined be the frontend. It starts and ends as soon you can identify a new section visually, **or** content-related.
 
-5. A typical `homepage` could have the following setup for example:
+3. A typical `homepage` could have the following setup for example:
 
 ![Section Groups](https://github.com/Webhikers-Interntal-Docs/ACF-creation/blob/main/section-groups-en.png)
 
-3. To group all fields into sections use the `group` field_type when you create a new advanced custom field.
-4. ![Field Type Group](https://github.com/Webhikers-Interntal-Docs/ACF-creation/blob/main/field-type-group.png)
+4. To group all fields into sections use the `group` field_type when you create a new advanced custom field.
 
+![Field Type Group](https://github.com/Webhikers-Interntal-Docs/ACF-creation/blob/main/field-type-group.png)
 
-5. Each field with the field_type `group` contains several fields. For eaxmple:
+6. Each field with the field_type `group` contains several fields. For eaxmple:
 
 `Section Header`
 
@@ -21,6 +21,8 @@
 Fields inside `Section Header`
 
 ![Section Header Fields](https://github.com/Webhikers-Interntal-Docs/ACF-creation/blob/main/section-header-fields.png)
+
+In reality, these fields would look like this in the frontend:
 
 
 6. If you see any kind of repetitive schema in the frontend, you always must use a field with the type `repeater`. Inside the repeater simply put the fields as you would do normally.
