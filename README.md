@@ -19,16 +19,9 @@ Wohnen-Objekt Page
 
 5. Each field with the field_type `group` contains several fields. For eaxmple:
 
-```
+![Section Header Label](https://github.com/Webhikers-Interntal-Docs/ACF-creation/blob/main/section-header-label.png)
+![Section Header Fields](https://github.com/Webhikers-Interntal-Docs/ACF-creation/blob/main/section-header-fields.png)
 
-#Field Section Head (field_type:group)
-
-Title (Label: Title, id:title, type:text)
-Subtitle (Label: Subtitle, id:subtitle, type:text)
-Description (Label: Description, id:description, type:textarea)
-Background Image (Label: Background Image, id:background_image, type:image)
-
-```
 
 6. If you see any kind of repetitive schema in the frontend, you always must use a field with the type `repeater`. Inside the repeater simply put the fields as you would do normally.
 
