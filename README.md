@@ -1,5 +1,7 @@
 # ACF-creation
 
+## Example Tutorial for  Homepage Header
+
 1. One page must have exactly one ACF Field Group
 
 2. All fields on a page must be grouped into sections. A section is defined be the frontend. It starts and ends as soon you can identify a new section visually, **or** content-related.
@@ -12,7 +14,7 @@
 
 ![Field Type Group](https://github.com/Webhikers-Interntal-Docs/ACF-creation/blob/main/field-type-group.png)
 
-6. Each field with the field_type `group` contains several fields. For eaxmple:
+5. Each field with the field_type `group` contains several fields. For eaxmple:
 
 `Section Header`
 
@@ -30,10 +32,80 @@ It has a `title`, a `subtitle`, a `button` text and a list of `background_images
 
 6. If you see any kind of repetitive schema in the frontend, you always must use a field with the type `repeater`. Inside the repeater simply put the fields as you would do normally.
 
-7. Please stick to our naming conventions as follows:
+In `Section Header` -> `Background Images`
+
+![Section Header Background Images](https://github.com/Webhikers-Interntal-Docs/ACF-creation/blob/main/section-header-background-images.png)
+
+In `Section Header` -> `Background Images` -> `Background_Image`
+
+![Section Header Background Images Image](https://github.com/Webhikers-Interntal-Docs/ACF-creation/blob/main/section-header-background-images-image.png)
+
+## Naming Conventions
+
+Please stick to our naming conventions as follows:
 
 - Short Text Inputs: `Title`, `Subtitle` (If there is more than 2 short text inputs in 1 Group, you can give it a name of your choice)
 - Long Text Inputs: `Description` (If there is more than 1 long text input in 1 Group, you can give it a name of your choice)
 - Images: `Image` (If there is more than 1 image in 1 Group, you can give it a name of your choice)
 - Background Images: `Background Image`.
 
+## Input Types
+
+**You only need to select the correct field type and you can leave all other field options default**
+
+- Headlines and short sentences: input type - `Text`
+- Descriptions and text with more than one row:
+  - if the user needs the ability to format the text styling: input type - `Wysiwyg Editor`
+  - if the user does not need the ability to format the text styling: input type - `Text Area`
+- Images and Background Images: input type - `Image`
+- Youtube Videos: input type - `Text` (Only Youtube ID)
+- Google Maps: input type - `Text` (Only Map and coordinates ID)
+
+## Which content needs Advanced Custom Fields?
+
+Basically, anything that is `content related` requires ACF. Anything that is `design related` does not require ACF.
+
+### Example 1
+
+![Wunschauto Benefits](https://github.com/Webhikers-Interntal-Docs/ACF-creation/blob/main/wunschauto-benefits.png)
+
+Here we need the following fields:
+
+1. `title`
+2. `subtitle`
+3. `benefits` (must be a repeater)
+  - `icon`
+  - `title`
+  - `description`
+
+We do not want the user to enter 1, 2, 3, 4 for each benefit, since this can be done programmatically.
+
+### Example 2
+
+![Wunschauto Service](https://github.com/Webhikers-Interntal-Docs/ACF-creation/blob/main/wunschauto-service.png)
+
+Here we need the following fields:
+
+1. `title`
+2. `subtitle`
+3. `description`
+4. `services` (must be a repeater)
+  - `title`
+  - `subtitle`
+  - `description`
+
+We do not want the user to enter an image for the red label for each service item, since this can be done programmatically.
+
+
+### Example 3
+
+![Wunschauto Inseriert](https://github.com/Webhikers-Interntal-Docs/ACF-creation/blob/main/wunschauto-inseriert.png)
+
+Here we need the following fields:
+
+1. `title`
+2. `subtitle`
+3. `services` (must be a repeater)
+  - `title`
+
+We do not want the user to enter an image for the red icon for each item, since this can be done programmatically.
