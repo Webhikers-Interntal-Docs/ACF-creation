@@ -14,7 +14,11 @@
 
 5. Each field with the field_type `group` contains several fields. For eaxmple:
 
+`Section Header`
+
 ![Section Header Label](https://github.com/Webhikers-Interntal-Docs/ACF-creation/blob/main/section-header-label.png)
+
+Fields inside `Section Header`
 ![Section Header Fields](https://github.com/Webhikers-Interntal-Docs/ACF-creation/blob/main/section-header-fields.png)
 
 
