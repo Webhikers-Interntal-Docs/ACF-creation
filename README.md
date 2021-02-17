@@ -11,7 +11,7 @@ Wohnen-Objekt Page
 
 ```
 
-![Section Groups](https://github.com/Webhikers-Interntal-Docs/ACF-creation/blob/main/section-groups.png)
+![Section Groups](https://github.com/Webhikers-Interntal-Docs/ACF-creation/blob/main/section-groups-en.png)
 
 
 5. Each field with the field_type `group` contains several fields. For eaxmple:
