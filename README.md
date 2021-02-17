@@ -7,17 +7,11 @@
 
 ```
 #ACF Fielgroups:
-Page Home
-
-#In Page Home
-Section Head #(Label: Section Head, id: section_head, field_type:group)
-Section Benefits #(Label: Section Benefits, id: section_benefits, field_type:group)
-Section About #(Label: Section About, id: section_about, field_type:group)
-...etc...
+Wohnen-Objekt Page
 
 ```
 
-![Image of Yaktocat](https://github.com/Webhikers-Interntal-Docs/ACF-creation/blob/main/section-groups.png)
+![Section Groups](https://github.com/Webhikers-Interntal-Docs/ACF-creation/blob/main/section-groups.png)
 
 
 5. Each field with the field_type `group` contains several fields. For eaxmple:
