@@ -6,11 +6,6 @@
 
 5. A typical `homepage` could have the following setup for example:
 
-```
-#ACF Fielgroups:
-Wohnen-Objekt Page
-
-```
 ![Section Groups](https://github.com/Webhikers-Interntal-Docs/ACF-creation/blob/main/section-groups-en.png)
 
 3. To group all fields into sections use the `group` field_type when you create a new advanced custom field.
