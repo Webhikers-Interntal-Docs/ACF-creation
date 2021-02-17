@@ -17,6 +17,9 @@ Section About #(Label: Section About, id: section_about, field_type:group)
 
 ```
 
+![Image of Yaktocat](https://github.com/Webhikers-Interntal-Docs/ACF-creation/blob/main/section-groups.png)
+
+
 5. Each field with the field_type `group` contains several fields. For eaxmple:
 
 ```
