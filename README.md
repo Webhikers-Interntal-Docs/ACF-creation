@@ -24,6 +24,9 @@ Fields inside `Section Header`
 
 In reality, these fields would look like this in the frontend:
 
+![Section Header Frontend](https://github.com/Webhikers-Interntal-Docs/ACF-creation/blob/main/section-header-frontend.png)
+
+It has a `title`, a `subtitle`, a `button` text and a list of `background_images` for the slider. You will find the naming conventions for the fields below.
 
 6. If you see any kind of repetitive schema in the frontend, you always must use a field with the type `repeater`. Inside the repeater simply put the fields as you would do normally.
 
