@@ -64,6 +64,7 @@ Please stick to our naming conventions as follows:
 - Images and Background Images: input type - `Image`
 - Youtube Videos: input type - `Text` (Only Youtube ID)
 - Google Maps: input type - `Text` (Only Map and coordinates ID)
+- All Images MUST be arrays, not only image urls, so we can get more information about all images (additional info like width, or height, alt tags, etc...)
 
 ## Which content needs Advanced Custom Fields?
 
