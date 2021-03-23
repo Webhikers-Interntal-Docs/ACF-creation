@@ -1,5 +1,9 @@
 # ACF-creation
 
+## XD Export
+
+**Please export ALL assets without any formatting or cropping (raw and original images and assets)**
+
 ## Example Tutorial for  Homepage Header
 
 1. One page must have exactly one ACF Field Group
