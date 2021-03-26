@@ -1,5 +1,14 @@
 # ACF-creation
 
+## Contact Form Creation
+
+1. When a website needs a contact form, please install [CF7 Plugin](https://de.wordpress.org/plugins/contact-form-7/).
+2. Create a new form for each contact form you see in the frontend (mostly it's only one)
+3. In the form, create a field for each form input you see in the frontend and give them descriptive names (the names can always be in english). Set required fields to required.
+4. For each form create a field with the name `legal_check` as `text` and make it required.
+5. In the email tab, apply your created fields to the email formatting (subject, from, to, message, tel, etc....)
+6. Enter the `form_id` and all `fieldnames (inlcuding required:true/false` and `legal_check` of the form into the prject doc where you also enter the rest api endpoints of the pages you create.
+
 ## XD Export
 
 **Please export ALL assets without any formatting or cropping (raw and original images and assets)**
